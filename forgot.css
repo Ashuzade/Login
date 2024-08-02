@@ -1,0 +1,51 @@
+
+#main{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+#reset{
+
+    padding-left: 20px;
+}
+p{
+   
+   font-weight: 100;
+   font-size: medium;
+}
+#email{
+    position:relative;
+    top: 15px;
+    height: 20px;
+    width: 700px;
+    padding-left: 30px;
+}
+input{
+    height: 30px;
+    width: 400px;
+}
+
+#btn{
+     position: relative;
+     top: 100px;
+     left: 200px;
+}
+
+button{
+    background-color: rgba(101, 215, 7, 0.807);
+    border: 2px;
+    height: 30px;
+    width: 90px;
+    font-size: medium;
+    font-weight: 500;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Box styling */
+.box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* User image styling */
+.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Link styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error box styling */
+#errorBox {
+    color: red;
+    margin-top: 10px;
+}
